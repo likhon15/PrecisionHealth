@@ -16216,7 +16216,7 @@ hr.horizontal.gray-light {
     }
 }
 .navbar {
-    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 2px, 2px 12px 0 rgba(0, 0, 0, 0.16);
 }
 .navbar .nav-link,
 .navbar .navbar-brand {
@@ -16480,6 +16480,9 @@ hr.horizontal.gray-light {
         overflow-y: auto;
         padding: 0;
         box-shadow: none;
+    }
+    .navbar-collapse{
+        
     }
     .navbar-vertical.navbar-expand-sm .navbar-collapse {
         display: block;
