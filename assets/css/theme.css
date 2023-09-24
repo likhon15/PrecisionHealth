@@ -2168,7 +2168,7 @@ progress {
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #d2d6da;
+    border: 2px solid #d2d6da;
     appearance: none;
     border-radius: 0.5rem;
     transition: box-shadow 0.15s ease, border-color 0.15s ease;
@@ -2282,17 +2282,20 @@ progress {
 .form-control-lg {
     min-height: unset;
     padding: 0.75rem;
+    border: 1px solid gray;
     font-size: 0.875rem;
     border-radius: 0.5rem;
 }
 .form-control-lg::file-selector-button {
     padding: 0.75rem;
     margin: -0.75rem;
+    border: 1px solid gray;
     margin-inline-end: 0.75rem;
 }
 .form-control-lg::-webkit-file-upload-button {
     padding: 0.75rem;
     margin: -0.75rem;
+    border: 1px solid gray;
     margin-inline-end: 0.75rem;
 }
 textarea.form-control,
@@ -2305,6 +2308,9 @@ textarea.form-control-sm {
     height: auto;
     padding: 0.5rem;
 }
+
+
+
 .form-control-color:not(:disabled):not([readonly]) {
     cursor: pointer;
 }
@@ -17501,6 +17507,8 @@ hr.horizontal.gray-light {
 .btn.btn-facebook {
     background-color: #3b5998;
     color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .btn.btn-facebook:focus,
 .btn.btn-facebook:hover {
@@ -17540,6 +17548,8 @@ hr.horizontal.gray-light {
 .btn.btn-twitter {
     background-color: #55acee;
     color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .btn.btn-twitter:focus,
 .btn.btn-twitter:hover {
@@ -17580,6 +17590,14 @@ hr.horizontal.gray-light {
     background-color: #cc2127;
     color: #fff;
 }
+
+.btn-google{
+    background-color: var(--bs-red);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .btn.btn-pinterest:focus,
 .btn.btn-pinterest:hover {
     background-color: #b21d22;
@@ -17590,6 +17608,7 @@ hr.horizontal.gray-light {
 .btn.btn-pinterest:focus {
     box-shadow: none;
 }
+
 .btn.btn-pinterest.btn-simple {
     color: #b21d22;
     background-color: transparent;
@@ -17696,6 +17715,7 @@ hr.horizontal.gray-light {
 .btn.btn-github {
     background-color: #24292e;
     color: #fff;
+    
 }
 .btn.btn-github:focus,
 .btn.btn-github:hover {

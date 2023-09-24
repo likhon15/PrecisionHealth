@@ -8,6 +8,13 @@
     height: 100vh;
 }
 
+.imgg{
+   
+    background: url(' https://img.freepik.com/premium-vector/book-doctor-appointment-card-template_151150-11155.jpg') center no-repeat;
+    opacity: 1;
+    height: 100vh;
+}
+
 .infinity-form-container{
     background: white;
     display: flex;
@@ -34,7 +41,6 @@
 
 .infinity-form h4 {
     font-weight: bold;
-    color: white;
 }
 
 .infinity-form .form-input {
@@ -121,7 +127,7 @@
 }
 
 .forget-link , .login-link , .register-link {
-    color: #fff;
+    color: gray;
     font-weight: bold;
 }
 
@@ -144,6 +150,7 @@
 .infinity-form .btn-social:hover {
     text-decoration: underline;
 }
+
 
 
 .body{
