@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.text-white{
+    color:  white;
+}
+
 .infinity-form{
     display: flex;
     flex-direction: column;

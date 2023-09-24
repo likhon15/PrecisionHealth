@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Reset</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="form.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+	<link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
+	<link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-svg.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./assets/css/theme.css">
+	<link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
+
 <body>
+	<section>
+		<nav class="navbar navbar-expand-lg py-3 bg-white">
+			<div class="container">
+				<a class="navbar-brand w-8" href="#" data-config-id="brand">
+					<b class="brand">Precision</b>
+				</a>
+
+				<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon mt-2">
+						<span class="navbar-toggler-bar bar1"></span>
+						<span class="navbar-toggler-bar bar2"></span>
+						<span class="navbar-toggler-bar bar3"></span>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+					<ul class="navbar-nav navbar-nav-hover ms-auto">
+						<li class="nav-item mx-2">
+							<a href="index.html" class="nav-link ps-2 cursor-pointer">
+								Home
+							</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="javascript:void(0);" class="nav-link ps-2 cursor-pointer">Doctors List</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="javascript:void(0);" class="nav-link ps-2 cursor-pointer">Appointment</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="javascript:void(0);" class="nav-link ps-2 cursor-pointer">About Us</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="javascript:void(0);" class="nav-link ps-2 cursor-pointer">Contact Us</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="javascript:void(0);" class="nav-link ps-2 cursor-pointer">Blog</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="login.html" class="btn mb-0 cursor-pointer bg-gradient-info">
+								Login
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
 	<div class="container-fluid">
 		<div class="row">
 			<!-- IMAGE CONTAINER BEGIN -->
@@ -20,57 +89,258 @@
 			<!-- FORM CONTAINER BEGIN -->
 			<div class="col-lg-6 col-md-6 infinity-form-container">
 				<div class="col-lg-8 col-md-12 col-sm-8 col-xs-12 infinity-form">
-					<div class="text-center mb-3 mt-5">
-						<img src="logo.png" width="150px">
-					</div>
-        	<div class="reset-form d-block">
-				    <form class="reset-password-form px-3">
-				      <h4 class="mb-3">Reset Your password</h4>
-				  		<p class="mb-3 text-white">
-				        Please enter your email address and we will send you a password reset link.
-				      </p>
-				  
-				      <div class="form-input">
+					<div class="reset-form d-block">
+						<form class="reset-password-form px-3">
+							<h4 class="mb-3">Reset Your password</h4>
+							<p class="mb-3 text-white">
+								Please enter your email address and we will send you a password reset link.
+							</p>
+
+							<div class="form-input">
 								<span><i class="fa fa-envelope"></i></span>
-								<input type="email" name="" placeholder="Email Address" tabindex="10"required>
+								<input type="email" name="" placeholder="Email Address" tabindex="10" required>
 							</div>
-				      <div class="mb-3"> 
+							<div class="mb-3">
 								<button type="submit" class="btn">Send Reset Link</button>
 							</div>
-				    </form>
-				  </div>
-				  
-				  <div class="reset-confirmation d-none px-3">
-				   	<div class="mb-4">
-				   		<h4 class="mb-3">Link was sent</h4>
-				     	<h6 class="text-white">Please, check your inbox for a password reset link.</h6>
-				   	</div>
-				  
-				  	<a href="login.html">
-				  		<button type="submit" class="btn">Login Now</button>
-				 		</a>
-				 	<div>
+						</form>
+					</div>
+
+					<div class="reset-confirmation d-none px-3">
+						<div class="mb-4">
+							<h4 class="mb-3">Link was sent</h4>
+							<h6 class="text-white">Please, check your inbox for a password reset link.</h6>
+						</div>
+
+						<a href="login.html">
+							<button type="submit" class="btn">Login Now</button>
+						</a>
+						<div>
+						</div>
+					</div>
+					<!-- FORM CONTAINER END -->
 				</div>
 			</div>
-			<!-- FORM CONTAINER END -->
-		</div>
-	</div>
 
-<script type="text/javascript">
-	function PasswordReset() {
-  	$('form.reset-password-form').on('submit', function(e) {
-      e.preventDefault();
-      $('.reset-form')
-      .removeClass('d-block')
-      .addClass('d-none');
-	    $('.reset-confirmation').addClass('d-block');
-		});
-	}
+			<section>
+				<footer class="footer py-5">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 mb-5 mb-lg-0">
+								<h6 class="text-uppercase mb-2">Hospital</h6>
+								<p class="mb-4 pb-2">
+									The next generation of design systems.
+								</p>
+								<a href="javascript:;" class="text-secondary me-xl-4 me-3">
+									<span class="text-lg fab fa-facebook" aria-hidden="true"></span>
+								</a>
+								<a href="javascript:;" class="text-secondary me-xl-4 me-3">
+									<span class="text-lg fab fa-twitter" aria-hidden="true"></span>
+								</a>
+								<a href="javascript:;" class="text-secondary me-xl-4 me-3">
+									<span class="text-lg fab fa-instagram" aria-hidden="true"></span>
+								</a>
+								<a href="javascript:;" class="text-secondary me-xl-4 me-3">
+									<span class="text-lg fab fa-pinterest" aria-hidden="true"></span>
+								</a>
+								<a href="javascript:;" class="text-secondary me-xl-4 me-3">
+									<span class="text-lg fab fa-github" aria-hidden="true"></span>
+								</a>
+							</div>
+							<div class="col-md-2 col-6 ms-lg-auto mb-md-0 mb-4">
+								<h6 class="text-sm">Company</h6>
+								<ul class="flex-column ms-n3 nav">
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:void(0);">
+											About Us
+										</a>
+									</li>
 
-	window.addEventListener('load', function() {
-    PasswordReset();
-	});
-</script>
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Careers
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Press
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Blog
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-2 col-6 mb-md-0 mb-4">
+								<h6 class="text-sm">Pages</h6>
+								<ul class="flex-column ms-n3 nav">
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Login
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Register
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Add list
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Contact
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-2 col-6 mb-md-0 mb-4">
+								<h6 class="text-sm">Legal</h6>
+								<ul class="flex-column ms-n3 nav">
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Terms
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											About Us
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Team
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Privacy
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-2 col-6 mb-md-0 mb-4">
+								<h6 class="text-sm">Resources</h6>
+								<ul class="flex-column ms-n3 nav">
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Blog
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Service
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Product
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-secondary" href="javascript:;">
+											Pricing
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<hr class="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1">
+						<div class="row">
+							<div class="col-8 mx-lg-auto text-lg-center">
+								<p class="text-sm text-secondary">
+									Copyright © 2022
+								</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+
+			<script src="https://loopple.s3.eu-west-3.amazonaws.com/soft-ui-design-system/js/core/bootstrap.min.js"
+				type="text/javascript"></script>
+			<script
+				src="https://demos.creative-tim.com/soft-ui-design-system/assets/js/soft-design-system.min.js?v=1.0.5"
+				type="text/javascript"></script>
+			<script src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/js/plugins/countup.min.js"
+				type="text/javascript"></script>
+			<script
+				src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/js/plugins/flatpickr.min.js"></script>
+			<script>
+				if (document.getElementById("state1")) {
+					const countUp = new CountUp("state1", document.getElementById("state1").getAttribute("countTo"));
+					if (!countUp.error) {
+						countUp.start();
+					} else {
+						console.error(countUp.error);
+					}
+				}
+				if (document.getElementById("state2")) {
+					const countUp1 = new CountUp("state2", document.getElementById("state2").getAttribute("countTo"));
+					if (!countUp1.error) {
+						countUp1.start();
+					} else {
+						console.error(countUp1.error);
+					}
+				}
+				if (document.getElementById("state3")) {
+					const countUp2 = new CountUp("state3", document.getElementById("state3").getAttribute("countTo"));
+					if (!countUp2.error) {
+						countUp2.start();
+					} else {
+						console.error(countUp2.error);
+					};
+				}
+
+				if (document.querySelector('.datepicker-1')) {
+					flatpickr('.datepicker-1', {
+					}); // flatpickr
+				}
+
+				if (document.querySelector('.datepicker-2')) {
+					flatpickr('.datepicker-2', {
+					}); // flatpickr
+				}
+			</script>
+			<script type="text/javascript">
+				function PasswordReset() {
+					$('form.reset-password-form').on('submit', function (e) {
+						e.preventDefault();
+						$('.reset-form')
+							.removeClass('d-block')
+							.addClass('d-none');
+						$('.reset-confirmation').addClass('d-block');
+					});
+				}
+
+				window.addEventListener('load', function () {
+					PasswordReset();
+				});
+
+
+
+
+
+			</script>
 
 </body>
+
 </html>
