@@ -39,7 +39,7 @@
  <link rel="stylesheet" href="form.css">
  <style>
   .infinity-image-cont {
-   background: url('https://cdn.dribbble.com/users/441371/screenshots/17056593/media/e0c48611238d226ce58cdb6b7f958807.gif') center no-repeat;
+   background: url('https://img.freepik.com/free-vector/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy-vector-isolated-concept-metaphor-illustration_335657-855.jpg') center no-repeat;
    opacity: 1;
    height: 100vh;
   }
@@ -62,7 +62,7 @@
     </a>
    </li>
    <li>
-    <a href="adminDoctor.html" class="active">
+    <a href="adminDoctor.html" >
      <i class='fa-solid fa-user-doctor'></i>
      <span class="links_name">Doctor</span>
     </a>
@@ -80,7 +80,7 @@
     </a>
    </li>
    <li>
-    <a href="BlogAdmin.html">
+    <a href="BlogAdmin.html" class="active">
      <i class='bx bx-book-alt'></i>
      <span class="links_name">Blog</span>
     </a>
@@ -126,39 +126,36 @@
       <!-- Company Logo -->
  
       <div class="text-center mb-4">
-       <h4>Add Doctor</h4>
+       <h4>Add Blog</h4>
       </div>
       <!-- Form -->
       <form class="px-3">
        <!-- Input Box -->
        <div class="form-input">
-        <span><i class="fa fa-user" aria-hidden="true"></i></span>
-        <input type="text" name="" placeholder="Full Name" tabindex="10" required class="brs">
+        <span><i class="fa-solid fa-book"></i></span>
+        <input type="text" name="" placeholder="Blog name" tabindex="10" required class="brs">
        </div>
        <div class="form-input">
-        <span><i class="fa fa-user" aria-hidden="true"></i></span>
-        <input type="text" name="" placeholder="Age" tabindex="10" required class="brs">
+        <span><i class="fa-solid fa-book"></i></span>
+        <input type="text" name="" placeholder="Blog topics" tabindex="10" required class="brs">
        </div>
+ 
+ 
+ 
        <div class="form-input">
-        <span><i class="fa fa-venus-mars" aria-hidden="true"></i></span>
+        <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
         <select name="" id="" class="brs">
-         <option value="">Male</option>
-         <option value="">Female</option>
+         <option value="">10:00AM-11:59AM</option>
+         <option value="">11:59AM-12:59PM</option>
+         <option value="">12:59AM-1:59PM</option>
+         <option value="">1:59AM-2:59PM</option>
         </select>
        </div>
  
        
- 
- 
- 
- 
        <div class="form-input">
-        <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-        <input type="email" name="" placeholder="Email Address" tabindex="10" required class="brs">
-       </div>
-       <div class="form-input">
-        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-        <input type="password" name="" placeholder="Phone" required class="brs">
+        <span><i class="fa-solid fa-image"></i></span>
+        <input type="file" name="" placeholder="upload image" required class="brs">
        </div>
  
  
@@ -169,7 +166,7 @@
  
        <!-- Register Button -->
        <div class="mb-3">
-        <button type="submit" class="btn btn-block bg-gradient-info">Add Doctor</button>
+        <button type="submit" class="btn btn-block bg-gradient-info">Add Blog</button>
        </div>
       </form>
      </div>

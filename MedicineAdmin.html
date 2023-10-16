@@ -39,7 +39,7 @@
  <link rel="stylesheet" href="form.css">
  <style>
   .infinity-image-cont {
-   background: url('https://cdn.dribbble.com/users/441371/screenshots/17056593/media/e0c48611238d226ce58cdb6b7f958807.gif') center no-repeat;
+   background: url('https://images.pexels.com/photos/161449/medical-tablets-pills-drug-161449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center no-repeat;
    opacity: 1;
    height: 100vh;
   }
@@ -62,7 +62,7 @@
     </a>
    </li>
    <li>
-    <a href="adminDoctor.html" class="active">
+    <a href="adminDoctor.html" >
      <i class='fa-solid fa-user-doctor'></i>
      <span class="links_name">Doctor</span>
     </a>
@@ -74,7 +74,7 @@
     </a>
    </li>
    <li>
-    <a href="MedicineAdmin.html">
+    <a href="MedicineAdmin.html" class="active">
      <i class='fa-solid fa-pills'></i>
      <span class="links_name">Medicine</span>
     </a>
@@ -126,39 +126,29 @@
       <!-- Company Logo -->
  
       <div class="text-center mb-4">
-       <h4>Add Doctor</h4>
+       <h4>Add Medicine</h4>
       </div>
       <!-- Form -->
       <form class="px-3">
        <!-- Input Box -->
        <div class="form-input">
-        <span><i class="fa fa-user" aria-hidden="true"></i></span>
-        <input type="text" name="" placeholder="Full Name" tabindex="10" required class="brs">
+        <span><i class="fa-solid fa-capsules"></i></span>
+        <input type="text" name="" placeholder="Medicine name" tabindex="10" required class="brs">
        </div>
        <div class="form-input">
-        <span><i class="fa fa-user" aria-hidden="true"></i></span>
-        <input type="text" name="" placeholder="Age" tabindex="10" required class="brs">
+        <span><i class="fa-solid fa-dollar-sign"></i></span>
+        <input type="text" name="" placeholder="Price" tabindex="10" required class="brs">
        </div>
-       <div class="form-input">
-        <span><i class="fa fa-venus-mars" aria-hidden="true"></i></span>
-        <select name="" id="" class="brs">
-         <option value="">Male</option>
-         <option value="">Female</option>
-        </select>
-       </div>
- 
-       
- 
  
  
  
        <div class="form-input">
-        <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-        <input type="email" name="" placeholder="Email Address" tabindex="10" required class="brs">
+        <span><i class="fa-regular fa-building"></i></span>
+        <input type="email" name="" placeholder="Medicine brand" tabindex="10" required class="brs">
        </div>
        <div class="form-input">
-        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-        <input type="password" name="" placeholder="Phone" required class="brs">
+        <span><i class="fa-solid fa-image"></i></span>
+        <input type="file" name="" placeholder="upload image" required class="brs">
        </div>
  
  
@@ -169,7 +159,7 @@
  
        <!-- Register Button -->
        <div class="mb-3">
-        <button type="submit" class="btn btn-block bg-gradient-info">Add Doctor</button>
+        <button type="submit" class="btn btn-block bg-gradient-info">Add Medicine</button>
        </div>
       </form>
      </div>
