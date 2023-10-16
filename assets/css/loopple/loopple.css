@@ -32,6 +32,11 @@
 .loopple-alert.loopple-alert-dismissible .close span {
   color: #fff;
 }
+
+.navbar-nav li {
+  color: black; /* Change 'black' to the desired text color */
+}
+
 .loopple-fade {
   transition: opacity 0.15s linear;
 }

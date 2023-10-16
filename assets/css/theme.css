@@ -16965,9 +16965,7 @@ hr.horizontal.gray-light {
     transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-    .g-sidenav-show .sidenav .nav-item .collapse {
-        transition: none;
-    }
+    
 }
 .g-sidenav-show .sidenav .nav-link-text {
     transition: 0.3s ease;
